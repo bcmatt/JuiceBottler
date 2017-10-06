@@ -13,7 +13,7 @@ public class Factory {
     public int orangesProcessed;
     //Used to let the factories know when it's time to work
     protected volatile boolean gettowork;
-    //Priority Queue use from stackoverflow user Jon Skeet https//stackoverflow.com/questions/683041/how-do-i-use-a-priority-queue 
+  
     public final Queue<Orange> assemblyline = new PriorityQueue<>(FACTORY_CAPACITY);
     //Factory
     Factory() {
