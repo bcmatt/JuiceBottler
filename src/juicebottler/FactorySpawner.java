@@ -48,7 +48,7 @@ public class FactorySpawner {
             totalWasted += a.getWaste();
         }
         
-        System.out.println("Total provided/processed = " + totalProvided + "/" + totalProcessed);
+        System.out.println("Total provided/processed = " + totalProvided + " " + totalProcessed);
         System.out.println("Created " + totalBottles
                 + " bottles, wasted " + totalWasted + " oranges");
     }
